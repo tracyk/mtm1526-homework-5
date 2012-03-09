@@ -1,11 +1,5 @@
 $(document).ready(function() {
 
-	$('a').on('click', function(ev) {
-		$.ajax({
-			cache: true
-		});
-	});
-
 	$('.tab1').on('click', function(ev) {
 		$('.nav li').css("background-color", "#3399CC");
 		$('.tab1').css("background-color", "#66FFFF");
